@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #ededed;
+}
+.header{
+  background-color:#000;
+  color:#fff;
+   border-color: #080808;
+    min-height: 50px;
+  border: 1px solid transparent;
+}
+.inner-header{
+  width:80%;
+  margin:auto;
+}
+.logo{
+  float: left;
+   height: 50px;
+   padding: 15px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+.header-link{
+  float:right;
+    height: 50px;
+    padding: 15px 15px;
+     font-size:16px;
+   font-weight: bold;
+}
+
+#banner_image{
+  padding-top: 75px;
+ padding-bottom: 50px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url(imgs/intro-bg_1.jpg) no-repeat center;
+ background-size: cover;
+}
+#banner_content{
+  position: relative;
+ padding-top: 6%;
+padding-bottom: 6%;
+ margin: 4% auto ;
+background-color: rgba(0, 0, 0, 0.7);
+ max-width: 660px;
+
+}
+footer{
+  padding: 10px 0;
+background-color: #101010;
+color:#9d9d9d;
+ bottom: 0;
+  width: 100%
+
+}
+.footer_p{
+  text-align: center;
+}
+
+.row-style{
+  margin :20px auto 70px;
+
+}
+table{
+  margin:15px auto 391px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+th, td {
+  padding: 8px;
+}
+
+.success-link{
+  color:black;
+ font-weight:bold;
+}
+.footer-bottom{
+  margin-top: 465px;
+}
+.footer-setting{
+  margin-top:145px;
+}
+
+@media only screen and (min-width:992px){
+  .jumbotron{
+    height:11rem;
+    margin: 40px auto;
+  }
+  .success-para{
+    margin-top:20px;
+    margin-left:170px;
+  }
+}
